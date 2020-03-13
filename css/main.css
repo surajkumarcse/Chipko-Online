@@ -161,7 +161,7 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #fefefe;
+  color: #3b789c;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
@@ -4483,3 +4483,20 @@ dl.accordion.time-line:before {
 }
 
 /*-------- end footer Area -------------*/
+
+
+.bg-image.overlay-primary {
+  position: relative; }
+  .bg-image.overlay-primary:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    background: rgba(0, 166, 81, 0.9); }
+.bg-image > .container {
+  position: relative;
+  z-index: 1; }
